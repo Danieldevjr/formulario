@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entre em Contato | Seja Bem-Vindo(a)!</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Entre em Contato</h1>
+      <p>Dúvidas, sugestões ou apenas um oi? Adoraríamos te ouvir!</p>
+    </div>
+  </header>
+
+  <section class="contato">
+    <div class="container">
+      <h2>Fale Conosco</h2>
+
+      <form id="contatoForm" action="enviar.php" method="post">
+        <div class="row">
+          <div class="column">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div class="column">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="button">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 - Sua Empresa Inc.</p>
+    </div>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

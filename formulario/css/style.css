@@ -1,0 +1,122 @@
+/* Cores */
+
+body {
+    background-color: #f9fafe; /* Light background with a hint of blue */
+    color: #333; /* Dark text */
+    font-family: 'Roboto', sans-serif; /* Modern font */
+  }
+  
+  a {
+    color: #4CAF50; /* Light blue links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #3e8e41; /* Darker blue on hover */
+    text-decoration: underline;
+  }
+  
+  /* Layout */
+  
+  .container {
+    max-width: 900px; /* Adjust max-width for different screens */
+    margin: 40px auto; /* Center the container with some top margin */
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: space-between; /* Distribute columns evenly */
+  }
+  
+  .column {
+    flex: 1 0 48%; /* Adjust column width for better spacing */
+    padding: 10px;
+  }
+  
+  /* Header */
+  
+  header {
+    background-color: #f5f5f5; /* Light gray background */
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.8em; /* Larger font size for title */
+    font-weight: bold;
+    margin-bottom: 1em;
+    color: #333; /* Dark text for headings */
+  }
+  
+  p {
+    font-size: 1.1em; /* Slightly larger font size for body text */
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #666; /* Lighter text for descriptions */
+  }
+  
+  /* Contact Section */
+  
+  .contato {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  h2 {
+    font-size: 2em; /* Medium-sized heading */
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Dark text for headings */
+  }
+  
+  /* Form Fields */
+  
+  label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333; /* Dark text for labels */
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* Make inputs full-width */
+    padding: 12px; /* Add some padding */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding in width calculation */
+    font-size: 16px; /* Adjust font size */
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #4CAF50; /* Blue border on focus */
+  }
+  
+  textarea {
+    height: 150px; /* Adjust textarea height */
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  /* Button */
+  
+  button.button {
+    background-color: #4CAF50; /* Light blue background */
+    color: white; /* White text */
+    padding: 15px 25px; /* Add some padding */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable area */
+  }  
